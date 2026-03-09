@@ -7,7 +7,8 @@ import { postData } from "../services/fetch"
 
   const [usuario,setUsuario] = useState("")
   const [contraseña,setContraseña] = useState("")
-  
+
+  }
   
     return (
     <div>
@@ -35,6 +36,19 @@ import { postData } from "../services/fetch"
 
 )
 
- }
 export default Login
 
+import { useNavigate } from 'react-router-dom';
+
+function RoleSelector() {
+  const navigate = useNavigate();
+
+  const handleRoleChange = (event) => {
+    const value = event.target.value;
+    if (value === 'admin') {
+      navigate('/adminDshbrd'); // Ruta interna
+    } else if (value === 'cliente') {
+      navigate('/home-cliente');    // Ruta interna
+    }
+  }
+}

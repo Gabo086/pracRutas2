@@ -1,9 +1,8 @@
 import { useState } from "react"
-import { useState } from "../pages/AdminPag"
 import { postData } from '../services/fetch'
 
 async function AdminDshbrd(useState) {
-    const 
+
 
     return (
         
@@ -13,10 +12,8 @@ async function AdminDshbrd(useState) {
           <input type="text" placeholder="Editar producto"/>
           <input type="text" placeholder="Editar producto"/>
         </div>
-
-
     </div>
-  )
+)
 }
 
 export default AdminDshbrd
