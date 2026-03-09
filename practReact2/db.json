@@ -1,0 +1,36 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreCompleto": "E. Gabriel Bolaños Abarca",
+      "email": "gabobolaños@gmail.com",
+      "password": "mazdaFD3S",
+      "telefono": "7020-2422",
+      "edad": 20
+    },
+    {
+      "id": "f791",
+      "nombreCompleto": "Pepe",
+      "email": "pepe@pepe.pepe",
+      "password": "pepe",
+      "telefono": "911",
+      "edad": 92
+    }
+  ],
+
+    "usuarioAdmin": [
+        {
+        "id": 1,
+        "email": "gaboAdmin@gmail.com",
+        "password": "mazdaFD3S"
+        }
+      ],
+
+      "loginUsers": [
+        {
+          "id": "f7987",
+          "email": "ejemplo@gmail.com",
+          "password": "toyotaAE86"
+        }
+      ]
+}
